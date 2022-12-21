@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Go рулит!")
+	var a = 10
+	var b = 4
+	var res int
+	res = a - b
+	fmt.Println("Result is", res)
 }
