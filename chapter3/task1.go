@@ -1,0 +1,14 @@
+package main
+
+func main() {
+	for i := 0; i <= 100; i++ {
+		switch {
+		case i%3 == 0:
+			println("Fizz")
+		case i%5 == 0:
+			println("Buzz")
+		case i%3 == 0 && i%5 == 0:
+			println("FizzBuzz")
+		}
+	}
+}
