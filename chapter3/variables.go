@@ -2,12 +2,9 @@ package main
 
 import "log"
 
-var x = "Hello World"
-
 func main() {
-	log.Println(x)
-}
-
-func f() {
-	log.Println(x)
+	Foot := 0.3048
+	Meter := 1.000
+	footPerMeter := Meter / Foot
+	log.Println(footPerMeter)
 }
